@@ -39,6 +39,7 @@
 //
 // <script>
 let age = prompt('How old are you?');
+let num = Number(age);
 function checkAge(age) {
     let a = 18;
     let b = 60;
@@ -56,6 +57,7 @@ function checkAge(age) {
     }
 }
 checkAge(age);
-
+console.log(num)
+console.log(age)
 // </script>
 // </html>
